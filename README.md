@@ -1,46 +1,81 @@
-# Getting Started with Create React App
+# Dinosaur Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern web-based implementation of the classic Chrome dinosaur game built with React and TypeScript.
 
-## Available Scripts
+## 🎮 Features
 
-In the project directory, you can run:
+- Smooth jumping mechanics with double-jump capability
+- Randomly generated obstacles with varying heights
+- Score tracking system
+- Collision detection
+- Game over and restart functionality
+- Interactive game guide
+- Responsive design
 
-### `npm start`
+## 🚀 Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Node.js (v14 or higher)
+- npm (v6 or higher)
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+```bash
+git clone <your-repository-url>
+cd dinosaur-game
+```
 
-### `npm run build`
+2. Install dependencies:
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server:
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The game will be available at `http://localhost:3000`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎯 How to Play
 
-### `npm run eject`
+- Press `Space` to start the game
+- Press `Space` to make the dinosaur jump
+- Press `Space` again while in the air to perform a double jump
+- Avoid hitting the obstacles
+- Each obstacle cleared gives you 1 point
+- Game ends when you hit an obstacle
+- Press `Space` to restart after game over
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🛠️ Built With
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React 19
+- TypeScript
+- CSS3
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 📝 Game Mechanics
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- The dinosaur can perform a single jump or a double jump for higher obstacles
+- Obstacles are randomly generated with varying heights
+- The game speed remains constant
+- Score increases as you clear obstacles
+- Collision detection is based on precise hitbox calculations
 
-## Learn More
+## 🎨 Styling
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The game features a clean, minimalist design with:
+- Smooth animations for jumping
+- Moving ground effect
+- Clear game over and start screens
+- Side panel with game instructions
+- Responsive layout that works on different screen sizes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to submit issues and pull requests.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
