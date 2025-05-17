@@ -1,5 +1,9 @@
 # Dinosaur Game
 
+
+<img width="1300" alt="Screenshot 2025-05-17 at 10 24 03 PM" src="https://github.com/user-attachments/assets/fbb235cb-edd0-4b52-81aa-b46c8af8fe9b" />
+
+
 A modern web-based implementation of the classic Chrome dinosaur game built with React and TypeScript.
 
 ## 🎮 Features
